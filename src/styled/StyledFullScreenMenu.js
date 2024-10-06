@@ -1,4 +1,3 @@
-import { HashLink } from "react-router-hash-link";
 import styled from "styled-components";
 
 const StyledFullScreenContainer = styled.div`
@@ -15,8 +14,8 @@ const StyledFullScreenContainer = styled.div`
   align-items: center;
 `;
 
-const StyledFullScreenMenu = styled(HashLink)`
-  text-decoration: none;
+const StyledFullScreenMenu = styled.div`
+  cursor: pointer;
   width: 100%;
   text-align: center;
   color: white;

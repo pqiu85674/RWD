@@ -1,4 +1,3 @@
-import { HashLink } from "react-router-hash-link";
 import styled from "styled-components";
 
 const StyledMenuContainer = styled.div`
@@ -18,9 +17,9 @@ const StyledMenuTitle = styled.div`
   padding-left: 20px;
 `;
 
-const StyledMenuItem = styled(HashLink)`
+const StyledMenuItem = styled.div`
   color: black;
-  text-decoration: none;
+  cursor: pointer;
   text-align: start;
   padding: 10px;
 `;

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import bg from "../images/bg/bg003.jpg";
 import picture from "../images/common/logo-w.png";
-import { HashLink } from "react-router-hash-link";
 
 const StyledFooter = styled.div`
   padding: 80px 0;
@@ -23,8 +22,8 @@ const StyledFooterPicture = styled.div`
   }
 `;
 
-const StyledFooterLink = styled(HashLink)`
-  text-decoration: none;
+const StyledFooterLink = styled.div`
+  cursor: pointer;
   color: white;
   padding: 24px 8px;
   @media screen and (min-width: 541px) {
@@ -33,7 +32,7 @@ const StyledFooterLink = styled(HashLink)`
 `;
 
 const StyledFooterInfo = styled.div`
-  line-height:40px;
+  line-height: 40px;
   color: white;
   text-align: center;
   background: rgba(0, 0, 0, 0.9);

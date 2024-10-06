@@ -1,4 +1,3 @@
-import { HashLink } from "react-router-hash-link";
 import logo from "../images/common/logo.jpg";
 import styled from "styled-components";
 
@@ -25,8 +24,8 @@ const StyledLogo = styled.div`
   }
 `;
 
-const StyledNavBarLink = styled(HashLink)`
-  text-decoration: none;
+const StyledNavBarLink = styled.div`
+  cursor: pointer;
   display: none;
   padding: 20px 16px;
   color: white;
